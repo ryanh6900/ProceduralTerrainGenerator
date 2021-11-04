@@ -19,7 +19,7 @@ Textfield terrainLoad;
 Terrain myTerrain = new Terrain();
 
 void setup() {
-  size(1200, 800, P3D);
+  size(1800, 1000, P3D);
   
   pixelDensity(2);
   cp5 = new ControlP5(this);
