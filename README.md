@@ -26,7 +26,10 @@ in a 3D space. I will detail the important components of the project down below.
  ![HeightMappingAlgorithm](https://user-images.githubusercontent.com/68438637/157120102-b8beb14b-8302-4f0b-9605-1143c0bfe3b1.PNG)
 
 ### Details on texture smoothing algorithm:
-
+For each vertex we are smoothing:
+- Sample the position of the vertext and its neighboring vertices
+- Take the average of all the y-values of each of those vertices
+- Assign the average value to the y-value of the current vertex
 
 
 
