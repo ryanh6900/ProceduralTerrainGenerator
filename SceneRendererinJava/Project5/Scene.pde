@@ -1,9 +1,7 @@
 class Scene //<>// //<>//
 {
-
-  // TODO: Write this class!
   /*
-    Things you'll need:
+   important structures to implement:
    Some way to store PShapes and their positions
    Some way to store lights--position plus color for the pointLight() function
    Other classes may be helpful here
@@ -113,7 +111,6 @@ class Scene //<>// //<>//
 
   void DrawScene()
   {
-    // TODO: Draw all the information in this scene
     /*
      Just like using draw() with a regular sketch, things you would need to do
      Clear the screen with background()
