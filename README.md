@@ -13,6 +13,7 @@ in a 3D space. I will detail the important components of algorithm below.
 ### Details on creating grid algorithm:
 - I created an ArrayList of vectors that store the vertex data of the points.  **Java code**: points = new ArrayList<PVector>();
 - I created an ArrayLists of integers that store the triangle index data. Each triangle needs 3 integers, each of which reference the vertex data in the first arraylist.
+-Using these 2 data structures. I draw thousands of polygons that ultimately create the 3D terrain, this is an industry standard for how terrain is created in 3D applications.
 
 ### Details on heightmapping algorithm:
   - here
